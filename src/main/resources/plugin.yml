@@ -1,0 +1,96 @@
+name: NGCK
+version: '${project.version}'
+main: com.vanezzz.ngck.NGCK
+api-version: 1.19
+authors: [ Vanezzz ]
+description: Plugin for NGCK event!
+commands:
+#  itemspectator:
+#    description: Custom Item.
+#    usage: /itemspectator
+#    op-only: true
+#    permission-message: You do not have permission to use this command.
+#  itemreplacerwand:
+#    description: Custom Item.
+#    usage: /itemreplacerwand
+#    op-only: true
+#    permission-message: You do not have permission to use this command.
+  scoregive:
+    description: Gives score to the specific player.
+    usage: /scoregive <player> <value>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  scoreremove:
+    description: Remove score to the specific player.
+    usage: /scoreremove <player> <value>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  scoreset:
+    description: Set score to the specific player.
+    usage: /scoreset <player> <value>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  score:
+    description: Set score to the specific player.
+    usage: /score <player>
+  scorelb:
+    description: Score leaderboard.
+    usage: /scorelb
+  sb:
+    description: Super-Broadcast to all player.
+    usage: /sb <text>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  sbscreen:
+    description: Super-Broadcast to all player.
+    usage: /sbscreen <text>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  eventscramble:
+    description: Scramble Word Event.
+    usage: /eventscramble
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  clear:
+    description: Clear dropped items.
+    usage: /clear
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  mute:
+    description: Mute Player.
+    usage: /mute
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  unmute:
+    description: Unmute Player.
+    usage: /unmute
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  mutelist:
+    description: List of Muted Player.
+    usage: /mutelist
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  eventpotion:
+    description: Event Random Potion.
+    usage: /eventpotion <potion>
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  refreshlb:
+    description: Refresh leaderboard.
+    usage: /refreshlb
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  rules:
+    description: Server rules.
+    usage: /rules
+  backup-export:
+    description: Backup.
+    usage: /backup-export
+    op-only: true
+    permission-message: You do not have permission to use this command.
+  backup-import:
+    description: Backup.
+    usage: /backup-import
+    op-only: true
+    permission-message: You do not have permission to use this command.
